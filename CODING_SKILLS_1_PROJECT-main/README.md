@@ -1,4 +1,4 @@
-# 🎓 STUDENT LOGIN & MANAGEMENT SYSTEM (C PROGRAM)
+#  STUDENT LOGIN & MANAGEMENT SYSTEM (C PROGRAM)
 
 A complete **file-based Student Login & Management System** written in C with:
 - Role-based authentication (Admin, Staff, Guest)
@@ -9,7 +9,7 @@ A complete **file-based Student Login & Management System** written in C with:
 
 ---
 
-## 🚀 Features
+##  Features
 
 ### 🔐 Login System
 - User credentials stored in **credentials.txt**
@@ -18,7 +18,7 @@ A complete **file-based Student Login & Management System** written in C with:
 
 ---
 
-## 🧑‍💻 Role-Based Access
+##  Role-Based Access
 
 | Feature | Admin | Staff | Guest |
 |--------|:----:|:----:|:----:|
@@ -32,7 +32,7 @@ A complete **file-based Student Login & Management System** written in C with:
 
 ## 🗂 Student Database
 
-📌 Stored in **students.txt**  
+ Stored in **students.txt**  
 Format:
 roll name mark
 
@@ -43,9 +43,9 @@ Example:
 
 ---
 
-## 🔑 Credentials File Format
+##  Credentials File Format
 
-📌 Stored in **credentials.txt**  
+ Stored in **credentials.txt**  
 Format:
 username password role
 
@@ -58,7 +58,7 @@ guest1 guest123 guest
 
 ---
 
-## 🧭 Menus
+##  Menus
 
 ### Admin Menu
 Add Student
@@ -94,7 +94,7 @@ Logout
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 Student-Management-System/
 ├── main.c
@@ -105,19 +105,19 @@ Student-Management-System/
 
 ## 🛠 Compile & Run
 
-### 📌 Windows
+###  Windows
 gcc main.c -o sms.exe
 sms.exe
 
 ---
 
-### 📌 Linux / Mac
+###  Linux / Mac
 gcc main.c -o sms
 ./sms
 
 ---
 
-## 📌 Example students.txt (Updated)
+##  Example students.txt (Updated)
 
 101 Nikhil 91.20
 102 Manoj 88.75
@@ -149,7 +149,7 @@ gcc main.c -o sms
 
 ---
 
-## 🔐 Example credentials.txt
+##  Example credentials.txt
 
 nikhil_admin Nik@101 admin
 manoj_admin Mnj@102 admin
@@ -161,11 +161,11 @@ hari_guest Hari@107 guest
 
 
 
-> ⚠️ Change usernames/passwords before real deployment.
+>  Change usernames/passwords before real deployment.
 
 ---
 
-## ⭐ Future Enhancements
+##  Future Enhancements
 ✔ Sorting by Name / Marks / Roll  
 ✔ Additional fields: phone, course, email  
 ✔ GUI-based system  
